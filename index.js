@@ -3,7 +3,7 @@ var numberDwarves = [];
     for (var i = 0; i < dwarves.length; i++) {
        numberDwarves.push(`${i+1}. ${dwarves[i]} `)
     }
-return numberedDwarves.join('');
+return numberDwarves.join('');
 }
 
 function summonCaptainPlanet(planeteerCalls){
