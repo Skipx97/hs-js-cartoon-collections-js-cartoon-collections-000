@@ -15,8 +15,12 @@ return Planets;
 }
 
 function longPlaneteerCalls(words) {
-return words.some(word => word.length > 4);
-}
+  var i = 0
+  while (i < words.length) {
+    if (words[i].length > 4) {
+      return true
+    }
+    else {
 
 function findTheCheese (foods) {
 var cheeses = ['cheddar' , 'gouda' , 'camembert'];
